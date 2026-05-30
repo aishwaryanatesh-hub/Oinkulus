@@ -4,8 +4,11 @@
 
 ### *when pigs fly… sideways, across your screen, very calmly.*
 
-A tiny **macOS menu-bar** companion: a pixel pig that glides gently left ↔ right,
-giving your eyes a soft, hypnotic rhythm to follow. Look up. Breathe. Watch the pig fly.
+## 🐷 A fidget for your eyes.
+
+A tiny **macOS menu-bar** companion: a pixel pig that glides gently left ↔ right —
+a calm, repetitive bit of motion to *fidget* on while you read, think, or breathe.
+Look up. Breathe. Watch the pig fly.
 
 **No windows. No clutter. No Dock icon. Just vibes.** ✨
 

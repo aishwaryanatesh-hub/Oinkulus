@@ -16,8 +16,7 @@ No clutter. No Dock icon. Tiny menu bar icon. 🤏🏽
 
 
 <br/>
-<img src="docs/hero.png" alt="Oinkulus" width="360"/>
-
+<img src="docs/hero-one-pig.png" alt="Oinkulus" width="80"/>
 
 </div>
 
@@ -38,10 +37,10 @@ If your brain works like mine, I hope it helps you too. 🐷💛
 
 <div align="center">
 
-▶️ **[Watch the demo on YouTube. Try reading along to see if it helps you focus.](https://youtu.be/bzrU77tNVsk)**
+▶️ **[Watch the demo on YouTube. Try reading along to see if it helps you focus.](https://youtu.be/mjU10uMHEWc)**
 
-<a href="https://youtu.be/bzrU77tNVsk">
-  <img src="https://img.youtube.com/vi/bzrU77tNVsk/maxresdefault.jpg" alt="Watch the Oinkulus demo on YouTube" width="560"/>
+<a href="https://youtu.be/mjU10uMHEWc">
+  <img src="https://img.youtube.com/vi/mjU10uMHEWc/maxresdefault.jpg" alt="Watch the Oinkulus demo on YouTube" width="560"/>
 </a>
 </div>
 

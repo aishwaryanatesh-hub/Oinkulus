@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		A23E21CD2F66FDEF00E2FD6D /* EMDROverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMDROverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23E21CD2F66FDEF00E2FD6D /* Oinkulus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oinkulus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A23E21E42F66FF1800E2FD6D /* Exceptions for "Overlay" folder in "Overlay" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A23E21CC2F66FDEF00E2FD6D /* Overlay */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A23E21CF2F66FDEF00E2FD6D /* EMDROverlay */ = {
+		A23E21CF2F66FDEF00E2FD6D /* Overlay */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EMDROverlay;
+			exceptions = (
+				A23E21E42F66FF1800E2FD6D /* Exceptions for "Overlay" folder in "Overlay" target */,
+			);
+			path = Overlay;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +45,7 @@
 		A23E21C42F66FDEF00E2FD6D = {
 			isa = PBXGroup;
 			children = (
-				A23E21CF2F66FDEF00E2FD6D /* EMDROverlay */,
+				A23E21CF2F66FDEF00E2FD6D /* Overlay */,
 				A23E21CE2F66FDEF00E2FD6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +53,7 @@
 		A23E21CE2F66FDEF00E2FD6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A23E21CD2F66FDEF00E2FD6D /* EMDROverlay.app */,
+				A23E21CD2F66FDEF00E2FD6D /* Oinkulus.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A23E21CC2F66FDEF00E2FD6D /* EMDROverlay */ = {
+		A23E21CC2F66FDEF00E2FD6D /* Overlay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A23E21D82F66FDF000E2FD6D /* Build configuration list for PBXNativeTarget "EMDROverlay" */;
+			buildConfigurationList = A23E21D82F66FDF000E2FD6D /* Build configuration list for PBXNativeTarget "Overlay" */;
 			buildPhases = (
 				A23E21C92F66FDEF00E2FD6D /* Sources */,
 				A23E21CA2F66FDEF00E2FD6D /* Frameworks */,
@@ -61,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A23E21CF2F66FDEF00E2FD6D /* EMDROverlay */,
+				A23E21CF2F66FDEF00E2FD6D /* Overlay */,
 			);
-			name = EMDROverlay;
+			name = Overlay;
 			packageProductDependencies = (
 			);
-			productName = EMDROverlay;
-			productReference = A23E21CD2F66FDEF00E2FD6D /* EMDROverlay.app */;
+			productName = Overlay;
+			productReference = A23E21CD2F66FDEF00E2FD6D /* Oinkulus.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A23E21C82F66FDEF00E2FD6D /* Build configuration list for PBXProject "EMDROverlay" */;
+			buildConfigurationList = A23E21C82F66FDEF00E2FD6D /* Build configuration list for PBXProject "Overlay" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A23E21CC2F66FDEF00E2FD6D /* EMDROverlay */,
+				A23E21CC2F66FDEF00E2FD6D /* Overlay */,
 			);
 		};
 /* End PBXProject section */
@@ -178,7 +191,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -235,7 +248,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -252,17 +265,31 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Overlay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Oinkulus;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.uchch.EMDROverlay;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uchch.oinkulus;
+				PRODUCT_NAME = Oinkulus;
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -282,17 +309,31 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Overlay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Oinkulus;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.uchch.EMDROverlay;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uchch.oinkulus;
+				PRODUCT_NAME = Oinkulus;
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -306,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A23E21C82F66FDEF00E2FD6D /* Build configuration list for PBXProject "EMDROverlay" */ = {
+		A23E21C82F66FDEF00E2FD6D /* Build configuration list for PBXProject "Overlay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A23E21D62F66FDF000E2FD6D /* Debug */,
@@ -315,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A23E21D82F66FDF000E2FD6D /* Build configuration list for PBXNativeTarget "EMDROverlay" */ = {
+		A23E21D82F66FDF000E2FD6D /* Build configuration list for PBXNativeTarget "Overlay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A23E21D92F66FDF000E2FD6D /* Debug */,

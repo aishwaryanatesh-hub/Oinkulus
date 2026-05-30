@@ -21,16 +21,48 @@ giving your eyes a soft, hypnotic rhythm to follow. Look up. Breathe. Watch the 
 
 ---
 
-## ✨ Why you'll love it
+## 💭 Why I made this
+
+I live with **anxiety and ADHD**, and reading long blocks of text can be genuinely hard — my
+eyes skip, my mind wanders, and the harder I push to focus, the more restless I get.
+
+One day I opened an article, set a little pixel pig flying across the top of it, and read
+*underneath* the pig. It just… worked. I read the whole thing.
+
+Here's what helps me, in my own experience:
+
+- 🌿 **The gentle, repetitive motion settles my nervous system.** The steady left ↔ right
+  glide is quietly calming — like watching waves.
+- 🌀 **The pig adds just enough variation for my ADHD brain.** A small visual "fidget" —
+  kind of like brown noise, but for your eyes. Enough novelty to stay engaged, not so much
+  that it pulls focus.
+
+If your brain works anything like mine, I hope it helps you too. 🐷💛
+
+> 💛 Oinkulus is a gentle visual-focus / relaxation toy — this is my **personal experience**,
+> not medical advice. It is **not a medical device** and makes no clinical claims. If you're
+> seeking treatment, please talk to a professional.
+
+---
+
+## 📖 How to use it for reading
+
+1. Open whatever you want to read — an article, a PDF, a doc.
+2. Start Oinkulus (🐷 menu bar → **Start Oinkulus**, or just **⌘⇧E**).
+3. Let the pig fly **over your text** and read underneath. It's *click-through*, so you can
+   still scroll, click, and select normally — the pig never gets in your way.
+4. Pick a **Speed** that fits your mood — slower to wind down, a touch faster when you need
+   more stimulation to stay engaged.
+
+---
+
+## ✨ The little details
 
 - 🐽 **It's a flying pig.** Pixel-perfect, faces the way it flies, never upside down.
 - 🌊 **Smooth bilateral motion** — a calm side-to-side glide to rest your eyes on.
 - 🔤 **Floating letters** that spell out `P · I · G · S · F · L · Y` and refresh at the edges.
 - 🪶 **Featherweight & invisible-until-wanted** — lives in your menu bar, clicks pass right through it.
 - 🐢 **Three speeds** — Slow, Medium, Fast. (Default is nice and slow.)
-
-> 💛 Oinkulus is a gentle visual-focus / relaxation toy. It is **not a medical device** and
-> makes no clinical claims. If you're seeking treatment, please talk to a professional.
 
 ---
 
@@ -49,10 +81,11 @@ giving your eyes a soft, hypnotic rhythm to follow. Look up. Breathe. Watch the 
 ## ▶️ Start flying
 
 Oinkulus has **no window** — it lives up in your **menu bar** (top-right of your screen).
+**It starts flying the moment you open it.** 🐷
 
-1. Look for the **👁️ eye icon** in the menu bar.
-2. Click it → **▶ Start Oinkulus** (or just press **⌘⇧E** anywhere).
-3. Your pig takes off. Press **⌘⇧E** again to land it.
+1. Look for the **🐷 pig** in the menu bar (it turns to 💤 when paused).
+2. Press **⌘⇧E** anywhere to pause/resume — or click the pig → **⏸ Pause / ▶ Start Oinkulus**.
+3. That's it. The pig flies until you tell it to nap.
 
 From that same menu you can tweak everything:
 

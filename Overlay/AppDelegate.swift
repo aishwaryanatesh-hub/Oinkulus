@@ -12,6 +12,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         setupMenuBar()
         createOverlayWindow()
+        updateMenuBarIcon()   // reflect the default-active state
     }
 
     // MARK: - Menu Bar
@@ -20,9 +21,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
 
         if let button = statusItem?.button {
-            button.image = NSImage(systemSymbolName: "eye.trianglebadge.exclamationmark",
-                                   accessibilityDescription: "Oinkulus")
-            button.image?.size = NSSize(width: 18, height: 18)
+            button.image = nil
+            button.title = "🐷"
         }
 
         let menu = NSMenu()
@@ -142,10 +142,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func updateMenuBarIcon() {
         if let button = statusItem?.button {
-            let symbolName = overlayState.isActive ? "eye.fill" : "eye.trianglebadge.exclamationmark"
-            button.image = NSImage(systemSymbolName: symbolName,
-                                   accessibilityDescription: "Oinkulus")
-            button.image?.size = NSSize(width: 18, height: 18)
+            button.image = nil
+            // Pig flies when active, sleeps when paused.
+            button.title = overlayState.isActive ? "🐷" : "💤"
         }
     }
 }

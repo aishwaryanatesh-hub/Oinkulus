@@ -11,9 +11,11 @@ screen. A calm, repetitive bit of motion to fidget on while you read, think, or 
 
 <br/>
 
-<video src="https://github.com/aishwaryanatesh-hub/Oinkulus/raw/main/docs/oinkulus-demo.mp4" poster="https://github.com/aishwaryanatesh-hub/Oinkulus/raw/main/docs/hero.png" controls muted autoplay loop playsinline width="720"></video>
+<a href="https://youtu.be/bzrU77tNVsk">
+  <img src="docs/hero.png" alt="Watch the Oinkulus demo on YouTube" width="720"/>
+</a>
 
-[▶️ Watch the demo](https://github.com/aishwaryanatesh-hub/Oinkulus/raw/main/docs/oinkulus-demo.mp4) if the player doesn't load.
+▶️ **[Watch the demo on YouTube](https://youtu.be/bzrU77tNVsk)**
 
 <br/>
 

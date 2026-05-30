@@ -1,50 +1,52 @@
+
 <div align="center">
 
 # 🐷 Oinkulus
 
 ### a fidget for your eyes
-
-A tiny **macOS menu-bar** app: a pixel pig that glides gently left and right across your
-screen. A calm, repetitive bit of motion to fidget on while you read, think, or breathe.
-
-**No windows. No clutter. No Dock icon.** ✨
+A tiny **macOS** fidget app: a pixel pig that glides gently across your screen. 
+<br/>
+A calm, repetitive bit of motion to fidget on while you read, think, or breathe.
+<br/>
+No clutter. No Dock icon. Tiny menu bar icon. 🤏🏽
 
 <br/>
 
-<a href="https://youtu.be/bzrU77tNVsk">
-  <img src="docs/hero.png" alt="Watch the Oinkulus demo on YouTube" width="720"/>
-</a>
+`🐷 flies bilaterally` · `🖱️ change the speed` · `🅿️🅸🅶🆂🅵🅻🆈 letters`
 
-▶️ **[Watch the demo on YouTube](https://youtu.be/bzrU77tNVsk)**
 
 <br/>
+<img src="docs/hero.png" alt="Oinkulus" width="360"/>
 
-`🐷 flies bilaterally` · `🅿️🅸🅶🆂🅵🅻🆈 letters` · `🌙 dims your screen` · `🖱️ click-through` · `⌘⇧E to toggle`
 
 </div>
 
----
+
 
 ## 💭 Why I made this
+
 
 I live with **anxiety and ADHD**, and reading long blocks of text can be hard: my eyes skip
 and my mind wanders. One day I set a pixel pig flying across the top of an article and read
 underneath it. It just worked.
 
-Two things help, in my experience:
-
 - 🌿 **The gentle, repetitive motion settles my nervous system,** like watching waves.
 - 🌀 **The pig adds just enough variation for my ADHD brain.** A small visual fidget, kind of
-  like brown noise but for your eyes: enough to stay engaged, not enough to distract.
+  like brown noise but for my eyes: enough to stay engaged, not enough to distract.
 
 If your brain works like mine, I hope it helps you too. 🐷💛
 
-> 💛 This is my personal experience, not medical advice. Oinkulus is **not a medical device**
-> and makes no clinical claims.
+<div align="center">
 
----
+▶️ **[Watch the demo on YouTube. Try reading along to see if it helps you focus.](https://youtu.be/bzrU77tNVsk)**
+
+<a href="https://youtu.be/bzrU77tNVsk">
+  <img src="https://img.youtube.com/vi/bzrU77tNVsk/maxresdefault.jpg" alt="Watch the Oinkulus demo on YouTube" width="560"/>
+</a>
+</div>
 
 ## 📥 Install (60 seconds)
+
 
 1. **[⬇️ Download the latest `Oinkulus.dmg`](../../releases/latest)**
 2. Open it and **drag Oinkulus into Applications**.
@@ -52,7 +54,9 @@ If your brain works like mine, I hope it helps you too. 🐷💛
    checked."* Go to **System Settings → Privacy & Security**, find the Oinkulus notice, and
    click **Open Anyway**. One time only. ✅
 
----
+
+> 🐷💛 Oinkulus is **not a medical device**
+> and makes no clinical claims.
 
 ## ▶️ Using it
 
@@ -108,3 +112,8 @@ you need the **Apple Developer Program ($99/yr)**:
 Made with 🩷 and a flying pig · [MIT License](LICENSE)
 
 </div>
+
+<div align="center">
+<img src="docs/hero-one-pig.png" alt="Oinkulus" width="60"/>
+</div>
+<br/>

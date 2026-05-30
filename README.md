@@ -1,51 +1,88 @@
-# Oinkulus 🐷
+<div align="center">
 
-A calm, distraction-light **macOS menu-bar overlay** with a focus object that glides
-smoothly back and forth across your screen — a gentle left/right (bilateral) visual rhythm
-to rest your eyes on. The default focus object is a small pixel pig that flies side to side
-(yes, *pigs fly bilaterally*), flipping to face whichever way it's heading.
+# 🐷 Oinkulus
 
-> Oinkulus is a simple visual-focus / bilateral-movement tool for relaxation and focus.
-> It is **not a medical device** and makes no clinical or therapeutic claims. If you are
-> seeking treatment, please consult a qualified professional.
+### *when pigs fly… sideways, across your screen, very calmly.*
 
-## Features
+A tiny **macOS menu-bar** companion: a pixel pig that glides gently left ↔ right,
+giving your eyes a soft, hypnotic rhythm to follow. Look up. Breathe. Watch the pig fly.
 
-- Menu-bar app (no Dock icon) — toggle with **⌘⇧E**
-- Smooth figure-8 motion across all spaces, click-through (never steals focus)
-- Shapes: **Pig** (default), Triangle, Circle, Diamond
-- Speeds: Slow / Medium / Fast
-- Optional side letters that refresh at each edge (themed `P I G S F L Y` for the pig)
+**No windows. No clutter. No Dock icon. Just vibes.** ✨
 
-## Install
+<br/>
 
-1. Download **`Oinkulus.dmg`** from the [latest release](../../releases/latest).
-2. Open the DMG and drag **Oinkulus** into **Applications**.
-3. **First launch** (unsigned build): macOS will say it "can't be checked for malicious
-   software." This is expected — Oinkulus isn't notarized yet.
-   - Open **System Settings → Privacy & Security**, scroll to the Oinkulus notice, and
-     click **Open Anyway**. (You only need to do this once.)
-4. Oinkulus lives in the menu bar (look for the eye icon). Click it → **Start Oinkulus**.
+<img src="docs/hero.png" alt="Oinkulus flying across the screen" width="720"/>
 
-## Build from source
+<br/>
 
-Requires Xcode and macOS 14+.
+`🐷 flies bilaterally` · `🅿️🅸🅶🆂🅵🅻🆈 letters` · `🌙 dims your screen` · `🖱️ click-through` · `⌘⇧E to toggle`
+
+</div>
+
+---
+
+## ✨ Why you'll love it
+
+- 🐽 **It's a flying pig.** Pixel-perfect, faces the way it flies, never upside down.
+- 🌊 **Smooth bilateral motion** — a calm side-to-side glide to rest your eyes on.
+- 🔤 **Floating letters** that spell out `P · I · G · S · F · L · Y` and refresh at the edges.
+- 🪶 **Featherweight & invisible-until-wanted** — lives in your menu bar, clicks pass right through it.
+- 🐢 **Three speeds** — Slow, Medium, Fast. (Default is nice and slow.)
+
+> 💛 Oinkulus is a gentle visual-focus / relaxation toy. It is **not a medical device** and
+> makes no clinical claims. If you're seeking treatment, please talk to a professional.
+
+---
+
+## 📥 Install (60 seconds)
+
+1. **[⬇️ Download the latest `Oinkulus.dmg`](../../releases/latest)**
+2. Open the DMG and **drag 🐷 Oinkulus into Applications**.
+3. **First launch only** — because this build isn't signed by Apple yet, macOS will say it
+   *"can't be checked for malicious software."* That's expected. To let your pig fly:
+   - Go to **System Settings → Privacy & Security**
+   - Scroll down to the **Oinkulus** notice → click **Open Anyway**
+   - Confirm once more. ✅ Done forever.
+
+---
+
+## ▶️ Start flying
+
+Oinkulus has **no window** — it lives up in your **menu bar** (top-right of your screen).
+
+1. Look for the **👁️ eye icon** in the menu bar.
+2. Click it → **▶ Start Oinkulus** (or just press **⌘⇧E** anywhere).
+3. Your pig takes off. Press **⌘⇧E** again to land it.
+
+From that same menu you can tweak everything:
+
+| Menu item | What it does |
+|---|---|
+| **▶ / ⏸ Start / Pause Oinkulus** | Launch or land the pig (⌘⇧E) |
+| **Speed** | Slow · Medium · Fast |
+| **Shape** | 🐷 Pig · Triangle · Circle · Diamond |
+| **Side Letters** | Toggle the floating letters on/off |
+| **Quit** | Send the pig home |
+
+---
+
+## 🛠️ Build it yourself
+
+Requires Xcode + macOS 14 or later.
 
 ```bash
+# Just build
 xcodebuild -project Overlay.xcodeproj -scheme Overlay -configuration Release build
+
+# …or build a shareable DMG
+./scripts/release.sh        # → build/Oinkulus.dmg
 ```
 
-Or produce a distributable DMG:
+<details>
+<summary>🔏 Maintainer notes — signing &amp; notarization (optional)</summary>
 
-```bash
-./scripts/release.sh
-# → build/Oinkulus.dmg
-```
-
-## Maintainer notes — signing & notarization (optional)
-
-The default build is **unsigned** (free, no Apple account). To ship a warning-free,
-notarized DMG you need the **Apple Developer Program ($99/yr)**:
+The default build is **unsigned** (free, no Apple account). For a warning-free, notarized DMG
+you need the **Apple Developer Program ($99/yr)**:
 
 1. Create a *Developer ID Application* certificate (Xcode → Settings → Accounts).
 2. Store notary credentials once:
@@ -53,10 +90,17 @@ notarized DMG you need the **Apple Developer Program ($99/yr)**:
    xcrun notarytool store-credentials oinkulus-notary \
      --apple-id "you@example.com" --team-id "TEAMID" --password "app-specific-password"
    ```
-3. In `Overlay.xcodeproj`, set `DEVELOPMENT_TEAM` and `ENABLE_HARDENED_RUNTIME = YES`,
-   then run `NOTARIZE=1 ./scripts/release.sh` (the script's notarize block uses an
-   archive + Developer ID export, then `notarytool submit … --wait` and `stapler staple`).
+3. Set `DEVELOPMENT_TEAM` + `ENABLE_HARDENED_RUNTIME = YES` in `Overlay.xcodeproj` and the
+   `teamID` in `ExportOptions.plist`, then run:
+   ```bash
+   NOTARIZE=1 ./scripts/release.sh
+   ```
+</details>
 
-## License
+---
 
-[MIT](LICENSE)
+<div align="center">
+
+Made with 🩷 and a flying pig · [MIT License](LICENSE)
+
+</div>
